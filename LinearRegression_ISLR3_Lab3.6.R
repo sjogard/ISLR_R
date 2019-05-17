@@ -4,9 +4,9 @@
 
 library(MASS)
 library(ISLR)
-# These are just packages with data sets to work on
+# These are just packages with data sets
 
 ## Boston data set: medv: median house value for 506 households
 fix(Boston)
 names(Boston)
-# medv plus 12 other variables, to be used as predictors
+# medv plus 12 other variables which will used as predictors
